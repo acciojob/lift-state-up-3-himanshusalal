@@ -9,7 +9,7 @@ function App() {
     <div className="parent">
       <h1>Parent Component</h1>
 
-      <p>{selectedOption}</p>
+      <p>Selected Option: {selectedOption}</p>
 
       <ChildComponent1 setSelectedOption={setSelectedOption} />
       <ChildComponent2 setSelectedOption={setSelectedOption} />
