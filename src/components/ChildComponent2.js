@@ -2,11 +2,9 @@ import React from "react";
 
 function ChildComponent2({ setSelectedOption }) {
   return (
-    <div>
-      <button onClick={() => setSelectedOption("Option 2")}>
-        Select Option 2
-      </button>
-    </div>
+    <button onClick={() => setSelectedOption("Option 2")}>
+      Option 2
+    </button>
   );
 }
 
